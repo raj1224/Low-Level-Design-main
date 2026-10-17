@@ -12,6 +12,7 @@ a.out
 
 # Node
 node_modules/
+node_modules
 npm-debug.log*
 
 # Editor / OS
