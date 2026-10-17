@@ -1,0 +1,21 @@
+# Compiled C++ artifacts
+*.exe
+*.o
+*.obj
+*.out
+a.out
+*.gch
+*.pdb
+
+# Compiled Java artifacts
+*.class
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
