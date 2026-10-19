@@ -1,6 +1,6 @@
 # Dependency Inversion Principle (DIP)
 
-> **Section 05 — SOLID** · the **D** · Code: [C++](C++%20Code/) · [Java](Java%20Code/)
+> **Section 05 — SOLID** · the **D** · Code: [C++](C++%20Code/) · [Java](Java%20Code/) · [JavaScript](JavaScript%20Code/)
 
 > *"High-level modules and low-level modules should both depend on abstractions."*
 
@@ -54,4 +54,12 @@ javac FollowsDIP.java  ; java FollowsDIP
   [SMTP] to aarav@mail.com: Your order shipped
   [SMS]  to +91-90000-00000: Your OTP is 4827
 Same service, swapped transport - and a test could inject a fake client.
+```
+
+
+**JavaScript (Node.js)**
+```bash
+cd "05 - SOLID Principles/Dependency Inversion Principle/JavaScript Code"
+node violates-dip.js
+node follows-dip.js
 ```

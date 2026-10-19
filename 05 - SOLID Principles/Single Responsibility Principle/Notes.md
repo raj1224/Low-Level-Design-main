@@ -1,6 +1,6 @@
 # Single Responsibility Principle (SRP)
 
-> **Section 05 — SOLID Principles** · the **S** in SOLID · Code: [C++](C++%20Code/) · [Java](Java%20Code/)
+> **Section 05 — SOLID Principles** · the **S** in SOLID · Code: [C++](C++%20Code/) · [Java](Java%20Code/) · [JavaScript](JavaScript%20Code/)
 
 > *"A class should have only ONE reason to change."*
 
@@ -9,7 +9,9 @@ Every SOLID chapter ships **two** programs — one that **violates** the princip
 | C++ | Java | Shows |
 |---|---|---|
 | `violates-srp.cpp` | `ViolatesSRP.java` | one "god class" with four reasons to change |
+| `violates-srp.js` | `violates-srp.js` | JavaScript version of the violation |
 | `follows-srp.cpp` | `FollowsSRP.java` | one class per responsibility |
+| `follows-srp.js` | `follows-srp.js` | JavaScript version of the fix |
 
 ---
 
@@ -59,3 +61,11 @@ javac FollowsSRP.java  ; java FollowsSRP
 ```
 
 Both versions print the same receipt — the point isn't the output, it's **how many reasons each design has to change.**
+
+
+**JavaScript (Node.js)**
+```bash
+cd "05 - SOLID Principles/Single Responsibility Principle/JavaScript Code"
+node violates-srp.js
+node follows-srp.js
+```

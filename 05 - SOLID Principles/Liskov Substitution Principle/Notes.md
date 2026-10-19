@@ -1,6 +1,6 @@
 # Liskov Substitution Principle (LSP)
 
-> **Section 05 — SOLID** · the **L** · Code: [C++](C++%20Code/) · [Java](Java%20Code/)
+> **Section 05 — SOLID** · the **L** · Code: [C++](C++%20Code/) · [Java](Java%20Code/) · [JavaScript](JavaScript%20Code/)
 
 > *"Subtypes must be substitutable for their base type."* Code that works with the base must keep working when handed a subclass — no surprises, no thrown "not supported".
 
@@ -48,3 +48,11 @@ Now paying a bill from the FD (typed as Account)...
   CRASH: cannot withdraw from an FD before maturity
 ```
 The `follows` version makes that same mistake **fail to compile** instead of crashing.
+
+
+**JavaScript (Node.js)**
+```bash
+cd "05 - SOLID Principles/Liskov Substitution Principle/JavaScript Code"
+node violates-lsp.js
+node follows-lsp.js
+```

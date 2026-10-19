@@ -1,6 +1,6 @@
 # Open/Closed Principle (OCP)
 
-> **Section 05 — SOLID** · the **O** · Code: [C++](C++%20Code/) · [Java](Java%20Code/)
+> **Section 05 — SOLID** · the **O** · Code: [C++](C++%20Code/) · [Java](Java%20Code/) · [JavaScript](JavaScript%20Code/)
 
 > *"Software entities should be OPEN for extension, CLOSED for modification."*
 > Add new behaviour by adding new code — not by editing code that already works.
@@ -54,4 +54,12 @@ Cart = Rs 1000
   Flat Rs 100  ->  Rs 900
   10% off  ->  Rs 900
   20% off (max Rs 150)  ->  Rs 850
+```
+
+
+**JavaScript (Node.js)**
+```bash
+cd "05 - SOLID Principles/Open Closed Principle/JavaScript Code"
+node violates-ocp.js
+node follows-ocp.js
 ```

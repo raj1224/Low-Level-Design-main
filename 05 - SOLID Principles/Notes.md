@@ -10,7 +10,7 @@ SOLID is five principles for arranging classes so code stays **flexible and main
 | **I** | Interface Segregation | Many small interfaces > one fat one | [ISP](Interface%20Segregation%20Principle/Notes.md) |
 | **D** | Dependency Inversion | Depend on abstractions, inject details | [DIP](Dependency%20Inversion%20Principle/Notes.md) |
 
-Each chapter ships **two** programs per language — the **smell** (`violates-*`) right next to the **fix** (`follows-*`) — in both `C++ Code/` and `Java Code/`.
+Each chapter ships **two** programs per language — the **smell** (`violates-*`) right next to the **fix** (`follows-*`) — in `C++ Code/`, `Java Code/`, and `JavaScript Code/`.
 
 ---
 
@@ -44,3 +44,15 @@ flowchart LR
 Most **design patterns** are named recipes for satisfying these principles — which is exactly where we go next.
 
 ➡️ Next: **[06 — Design Patterns]**
+
+
+## JavaScript (Node.js)
+
+Each SOLID principle includes a JavaScript example that violates the principle and a version that follows it. Run a file with:
+
+```bash
+node violates-srp.js
+node follows-srp.js
+```
+
+Use the matching filenames inside each principle's `JavaScript Code/` folder.

@@ -1,6 +1,6 @@
 # Interface Segregation Principle (ISP)
 
-> **Section 05 — SOLID** · the **I** · Code: [C++](C++%20Code/) · [Java](Java%20Code/)
+> **Section 05 — SOLID** · the **I** · Code: [C++](C++%20Code/) · [Java](Java%20Code/) · [JavaScript](JavaScript%20Code/)
 
 > *"No client should be forced to depend on methods it does not use."* Prefer many small, focused interfaces over one fat one.
 
@@ -41,4 +41,12 @@ javac FollowsISP.java  ; java FollowsISP
   [print] invoice.pdf
   [print] contract.pdf
   [scan]  id-proof.jpg
+```
+
+
+**JavaScript (Node.js)**
+```bash
+cd "05 - SOLID Principles/Interface Segregation Principle/JavaScript Code"
+node violates-isp.js
+node follows-isp.js
 ```
